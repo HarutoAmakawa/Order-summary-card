@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display:wght@500&display=swap");
+
+:root {
+  --Pale_blue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Very_pale_blue: hsl(225, 100%, 98%);
+  --Desaturated_blue: hsl(224, 23%, 55%);
+  --Dark_blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-size: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin: 4em auto;
+  box-sizing: border-box;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.container {
+  width: 400px;
+  background-color: var(--Very_pale_blue);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em;
+}
+
+.container .img {
+  width: 100%;
+  padding: 0;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+h1 {
+  margin-top: 1em;
+}
+.container p {
+  line-height: 1.5em;
+  font-size: 1.6em;
+  padding: 1em;
+  color: var(--Desaturated_blue);
+}
+
+.flex {
+  display: flex;
+  background-color: var(--Pale_blue);
+  margin: 2em;
+  border-radius: 1em;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+  position: relative;
+  font-size: 1.4em;
+}
+.flex a:hover {
+  color: var(--Brightblue);
+  text-decoration: none;
+}
+.flex1 {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.flex2 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: var(--Desaturated_blue);
+}
+button {
+  width: 87%;
+  font-size: 1.4em;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.7em 0.5em;
+  background-color: var(--Brightblue);
+  color: white;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: var(--Dark_blue);
+}
+.btn {
+  background-color: transparent;
+  color: var(--Desaturated_blue);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.btn:hover {
+  color: var(--Dark_blue);
+}
+.attribution {
+  font-size: 1.6em;
+  color: var(--Dark_blue);
+  margin-top: 2em;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--Brightblue);
+}
+.attribution a:hover {
+  color: var(--Dark_blue);
+}
+.attribution a:active {
+  color: blue;
+}
